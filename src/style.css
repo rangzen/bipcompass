@@ -1,0 +1,17 @@
+:root { font-family: system-ui, sans-serif; color: #14291e; background: #f2f5ed; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 620px; margin: auto; padding: 24px 18px 40px; }
+header > p:first-child { font-size: .8rem; font-weight: 800; letter-spacing: .12em; }
+h1 { font-size: 2.4rem; line-height: 1.1; margin: 20px 0; }
+h2 { font-size: 1.25rem; }
+p, dd { line-height: 1.55; }
+section { margin-top: 24px; padding: 20px; background: #fff; border: 1px solid #b4c3ad; border-radius: 16px; }
+dt { font-weight: 750; margin-top: 14px; }
+dd { margin: 3px 0 0; }
+button { display: block; width: 100%; min-height: 56px; padding: 14px; border: 2px solid #14291e; border-radius: 10px; background: #14291e; color: white; font: inherit; font-weight: 750; margin-top: 12px; touch-action: manipulation; }
+button:disabled { background: #e4e9e0; color: #53614b; border-color: #ccd4c6; }
+button:focus-visible { outline: 4px solid #c15b00; outline-offset: 3px; }
+#stop { background: white; color: #14291e; }
+[data-testid="direction"] { display: block; font-size: 1.7rem; margin-top: 20px; }
+footer { line-height: 1.5; margin-top: 24px; }

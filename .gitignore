@@ -4,3 +4,9 @@
 # Local agent skills
 .agents/skills/
 skills-lock.json
+
+# Application build and test output
+node_modules/
+dist/
+test-results/
+playwright-report/
