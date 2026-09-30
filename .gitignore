@@ -1,2 +1,6 @@
 # Local credentials and configuration
 .env
+
+# Local agent skills
+.agents/skills/
+skills-lock.json
