@@ -1,8 +1,14 @@
 # bipcompass
 
+An experimental Android web app that aims to help pilots search for a powered
+drone by combining RadioMaster Pocket audio beeps with phone orientation.
+
+**Work in progress:** the current prototype only checks microphone and
+orientation access and calibrates phone alignment. Beep decoding, signal
+visualization, and directional guidance are not implemented yet.
+
 [Try the live readiness prototype](https://bipcompass.surge.sh/) in Chrome on
-your phone. It currently checks device access and alignment; beep decoding is
-not implemented yet.
+your phone.
 
 BipCompass is a companion PWA for the [Drone Finder ELRS script for the
 RadioMaster Pocket](https://github.com/andrewliyanage83/Drone-Finder-ELRS-Pocket).
@@ -11,8 +17,8 @@ indicator in audible beeps. BipCompass is designed to run on an Android phone
 mounted to the radio, listen to those beeps, estimate the encoded signal level,
 and associate each reading with the phone's orientation.
 
-The app presents signal readings by direction as a compass rose, along with
-scan coverage and candidate sectors to explore. The goal is to help a pilot
+The planned app will present signal readings by direction as a compass rose,
+along with scan coverage and candidate sectors to explore. The goal is to help a pilot
 search for a powered drone while its ELRS telemetry link is active, using the
 existing radio script without modifying it.
 
