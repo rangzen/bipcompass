@@ -1,5 +1,9 @@
 # bipcompass
 
+[Try the live readiness prototype](https://bipcompass.surge.sh/) in Chrome on
+your phone. It currently checks device access and alignment; beep decoding is
+not implemented yet.
+
 BipCompass is a companion PWA for the [Drone Finder ELRS script for the
 RadioMaster Pocket](https://github.com/andrewliyanage83/Drone-Finder-ELRS-Pocket).
 The script reports ELRS signal telemetry on the radio and encodes its signal
